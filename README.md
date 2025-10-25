@@ -27,7 +27,7 @@ Sistema Java em arquitetura MVC para consultar cotações de moedas em tempo rea
 
 1. **Clone o repositório:**
    ```bash
-   git clone <url-do-repositorio>
+   git clone https://github.com/HectorDK2004/CotacaoMoedas.git
    cd cotacao-moedas
 2. Baixe a biblioteca JSON:
 
@@ -36,6 +36,5 @@ mkdir lib
 # Baixe o json-20231013.jar e coloque na pasta lib/
 
 3. Compile e execute:
-
-bash
-ant run
+   ```bash
+   java -jar cotacao-moedas
